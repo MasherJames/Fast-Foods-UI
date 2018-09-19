@@ -1,0 +1,32 @@
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 4rem;
+    display: inline-block;
+    transition: all .2s;
+    font-size: 1.5rem;
+}
+
+.btn-main {
+    background-color: var(--white-color);
+    color: var(--dark-color);
+}
+
+.login {
+    position: absolute;
+    top: 3%;
+    left: 90%;
+}
+
+.btn:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    color: var(--main-color);
+}
+
+.btn:active {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}

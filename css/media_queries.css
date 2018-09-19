@@ -1,0 +1,31 @@
+@media (max-width: 375px) {
+    .heading-text {
+        display: none;
+    }
+    .login {
+        position: absolute;
+        left: 50%;
+        top: 65%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .btn {
+        padding: .4rem;
+    }
+    .btn:active {
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        transform: translate(-50%, -50%);
+    }
+    .header {
+        height: 30vh;
+    }
+    .steps-container {
+        font-size: .8rem;
+        padding: .5rem;
+        margin-left: 1rem;
+    }
+    .footer-section {
+        display: flex;
+        flex-direction: column;
+    }
+}

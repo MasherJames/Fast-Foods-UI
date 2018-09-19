@@ -1,0 +1,107 @@
+.header {
+    height: 90vh;
+    background-image: linear-gradient(to right bottom, var(--main-color-opacity), var(--main-dark-color-opacity)), url(../img/k.jpg);
+    background-size: cover;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 70vh, 0 100%);
+}
+
+.title {
+    font-style: italic;
+    text-transform: uppercase;
+    color: var(--white-color);
+    padding: 1rem;
+    letter-spacing: 0.3rem;
+}
+
+.heading-text-container {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.heading-text {
+    color: var(--white-color);
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+}
+
+.heading-text__main {
+    display: block;
+    font-size: 2.8rem;
+    letter-spacing: 1rem;
+    animation: MoveInLeft 1.5s ease-out;
+}
+
+.heading-text__sub {
+    display: block;
+    font-size: 1.5rem;
+    letter-spacing: 0.3rem;
+    animation: MoveInRight 1.5s ease-out;
+}
+
+.steps-section {
+    padding: 10rem 5rem;
+    display: flex;
+}
+
+.icon {
+    height: 3rem;
+    width: 3rem;
+    margin-bottom: 2rem;
+}
+
+.steps-container {
+    flex: 0 1 auto;
+    font-size: 1.5rem;
+    background-color: var(--main-color-light-opacity);
+    padding: 2rem;
+    margin-left: 4rem;
+    border-radius: .5rem;
+    text-align: center;
+    box-shadow: 0 1.5rem 4rem var(--grey-color-light);
+    transition: all .4s;
+    color: black;
+}
+
+.steps-container:hover {
+    transform: translateY(-2rem) scale(1.03)
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--grey-color-light);
+    padding: 3rem;
+}
+
+.footer-nav {
+    margin-left: 5rem;
+    font-size: 1.5rem;
+}
+
+.footer-social {
+    margin-right: 5rem;
+}
+
+.list-items {
+    list-style: none;
+    display: flex;
+}
+
+.list-item {
+    flex: 1 1 auto;
+    margin-left: 2rem;
+}
+
+.footer-links {
+    text-decoration: none;
+    transition: all .2s;
+    padding-bottom: .8rem;
+}
+
+.text .footer-links:hover {
+    border-bottom: 2px solid black;
+}
