@@ -1,12 +1,12 @@
-@media (max-width: 375px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
     .heading-text {
         display: none;
     }
     .login {
         position: absolute;
-        left: 50%;
+        left: 38%;
         top: 65%;
-        transform: translate(-50%, -50%);
+        transform: translate(0%, 0%);
         text-align: center;
     }
     .btn {
@@ -14,18 +14,85 @@
     }
     .btn:active {
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-        transform: translate(-50%, -50%);
+        transform: translate(0%, 0%);
     }
     .header {
         height: 30vh;
     }
+    .steps-section {
+        display: flex;
+        flex-direction: column;
+        padding: 5rem 2.5rem;
+    }
     .steps-container {
-        font-size: .8rem;
-        padding: .5rem;
+        font-size: 1.5rem;
+        padding: 1rem;
         margin-left: 1rem;
+        margin-bottom: 2rem;
+    }
+    .steps-container:hover {
+        transform: translateY(-1rem)
     }
     .footer-section {
         display: flex;
         flex-direction: column;
+    }
+    .footer-nav {
+        margin-left: .6rem;
+        font-size: 1.5rem;
+    }
+    .footer-social {
+        margin: 1rem;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .btn:link,
+    .btn:visited {
+        padding: 0.5rem 1rem;
+    }
+    .footer-section {
+        padding: 1.3rem;
+    }
+    .footer-nav {
+        margin-left: .1rem;
+        font-size: 1.3rem;
+    }
+    .footer-social {
+        margin: .7rem;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .header {
+        height: 50vh;
+        clip-path: polygon(0 0, 100% 0, 100% 40vh, 0 100%);
+    }
+    .heading-text {
+        color: var(--white-color);
+        text-transform: uppercase;
+        padding-bottom: 1rem;
+    }
+    .heading-text__sub {
+        display: none;
+    }
+    .btn:link,
+    .btn:visited {
+        font-size: 2rem;
+    }
+    .login {
+        left: 80%;
+    }
+    .signup {
+        margin-top: 1rem;
+    }
+    .steps-section {
+        padding: 3rem 2rem;
+    }
+    .steps-container {
+        font-size: 2rem;
+        padding: 1rem;
+        margin-left: 1rem;
+        margin-bottom: 2rem;
     }
 }

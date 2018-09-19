@@ -6,6 +6,12 @@
     clip-path: polygon(0 0, 100% 0, 100% 70vh, 0 100%);
 }
 
+.menu {
+    background-color: white;
+    margin: 1rem;
+    border-radius: 4rem;
+}
+
 .title {
     font-style: italic;
     text-transform: uppercase;
