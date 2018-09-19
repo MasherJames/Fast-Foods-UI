@@ -1,0 +1,19 @@
+button {
+    width: 10vw;
+    text-align: center;
+    border-radius: 4rem;
+    font-size: 2rem;
+    margin-top: 2.5rem;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.signup-link {
+    text-decoration: none;
+    color: var(--main-color-dark);
+    transition: all .2s;
+}
+
+.signup-link:hover {
+    border-bottom: 1px solid var(--white-color);
+}

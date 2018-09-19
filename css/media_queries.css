@@ -44,6 +44,21 @@
     .footer-social {
         margin: 1rem;
     }
+    .auth-container {
+        padding: 5rem 2rem 0 2rem;
+    }
+    .auth {
+        width: 80vw;
+        padding: 2rem;
+        font-size: 1.5rem;
+        margin-left: 2.5vh;
+    }
+    .auth_form>* {
+        padding: 1rem;
+    }
+    .auth-btn {
+        width: 40vw;
+    }
 }
 
 @media only screen and (max-width: 320px) {
@@ -94,5 +109,24 @@
         padding: 1rem;
         margin-left: 1rem;
         margin-bottom: 2rem;
+    }
+    .auth-container {
+        padding: 10rem 2rem 0 2rem;
+    }
+    .auth {
+        width: 80vw;
+        padding: 2rem;
+        font-size: 3rem;
+        margin-left: 5vh;
+        height: 60vh;
+    }
+    .auth_form>* {
+        padding: 1.6rem;
+    }
+    .auth-btn {
+        width: 30vw;
+    }
+    .auth_form input {
+        font-size: 1.5rem;
     }
 }

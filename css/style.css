@@ -1,6 +1,6 @@
-@import url("pages/dashboard.css");
-@import url("pages/login.css");
-@import url("pages/signup.css");
+@import url("css-pages/dashboard.css");
+@import url("css-pages/login.css");
+@import url("css-pages/signup.css");
 @import url("animation.css");
 @import url("base.css");
 @import url("components.css");

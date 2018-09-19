@@ -111,3 +111,41 @@
 .text .footer-links:hover {
     border-bottom: 2px solid black;
 }
+
+.auth-container {
+    background-color: var(--main-color-dark);
+    height: 100vh;
+    padding: 7rem 40rem 0 40rem;
+}
+
+.auth {
+    background-color: var(--main-color);
+    padding: 5rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+    color: var(--white-color);
+    width: 40vw;
+    height: 80vh;
+}
+
+.auth_form>* {
+    padding: 1rem;
+}
+
+.auth_form {
+    display: flex;
+    flex-direction: column;
+}
+
+.auth_form input {
+    border: 0;
+    outline: none;
+    background-color: var(--main-color);
+    border-bottom: 2px solid var(--white-color);
+    color: var(--white-color);
+    font-size: 1.5rem;
+}
+
+.auth-paragraph {
+    margin-top: 2rem;
+}
