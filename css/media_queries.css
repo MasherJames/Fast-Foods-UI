@@ -59,6 +59,38 @@
     .auth-btn {
         width: 40vw;
     }
+    .icon-auth-1 {
+        position: absolute;
+        top: 21%;
+        left: 8%;
+        height: 4rem;
+        width: 4rem;
+        fill: var(--white-color);
+    }
+    .icon-auth-2 {
+        position: absolute;
+        top: 34%;
+        left: 8%;
+        height: 4rem;
+        width: 4rem;
+        fill: var(--white-color);
+    }
+    .icon-auth-3 {
+        position: absolute;
+        top: 46%;
+        left: 8%;
+        height: 4rem;
+        width: 4rem;
+        fill: var(--white-color);
+    }
+    .icon-auth-4 {
+        position: absolute;
+        top: 33%;
+        left: 8%;
+        height: 4rem;
+        width: 4rem;
+        fill: var(--white-color);
+    }
 }
 
 @media only screen and (max-width: 320px) {

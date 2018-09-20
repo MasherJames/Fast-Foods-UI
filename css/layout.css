@@ -54,8 +54,13 @@
 }
 
 .icon {
-    height: 3rem;
-    width: 3rem;
+    height: 4rem;
+    width: 4rem;
+}
+
+.icon-footer,
+.icon-steps {
+    fill: var(--main-color);
     margin-bottom: 2rem;
 }
 
@@ -109,7 +114,7 @@
 }
 
 .text .footer-links:hover {
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid var(--main-color-dark);
 }
 
 .auth-container {

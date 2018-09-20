@@ -1,0 +1,156 @@
+.admin-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--grey-color-light);
+    height: 7rem;
+}
+
+.logout {
+    visibility: hidden;
+    position: absolute;
+}
+
+.admin-header__text {
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.icon-admin {
+    fill: var(--main-color);
+    height: 2rem;
+    width: 2rem;
+}
+
+.admim-user {
+    display: flex;
+    align-items: center;
+    padding-right: 1rem;
+}
+
+.admin-user__name {
+    font-size: 1.3rem;
+    font-style: inherit;
+}
+
+.admin-user__pic {
+    text-decoration: none;
+    color: inherit;
+}
+
+.admin-user__notification {
+    background-color: var(--white-color);
+    border-radius: 4567rem;
+    position: absolute;
+    top: 2%;
+    left: 91%;
+}
+
+.admin-user__mail {
+    margin-right: 3rem;
+}
+
+.admin-user__photo {
+    height: 4rem;
+    border-radius: 2rem;
+}
+
+.search {
+    display: flex;
+}
+
+.search input {
+    border: none;
+    border-radius: 10rem;
+    padding: .7rem 2rem;
+    background-color: rgb(228, 227, 227);
+    width: 28vw;
+    transition: all .2s;
+    margin-right: -3rem;
+}
+
+.search input:focus {
+    width: 30vw;
+    background-color: var(--white-color);
+    outline: none;
+}
+
+.search input::-webkit-input-placeholder {
+    font-weight: 100;
+    color: var(--grey-light-4);
+}
+
+.search__button {
+    border: none;
+    background-color: var(--grey-light-2);
+}
+
+.search__button:focus {
+    outline: none;
+}
+
+.content-container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.admin-nav {
+    flex: 0 0 15%;
+    background-color: var(--main-color);
+}
+
+.admin-items {
+    flex: 1;
+    background-color: var(--white-color);
+}
+
+.admin-links {
+    padding: 2rem;
+    transition: all .2s;
+}
+
+.admin-links:hover {
+    background-color: var(--main-color-dark);
+}
+
+.admin-link {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+.icon-admin-nav {
+    fill: var(--white-color);
+    height: 2.3rem;
+    width: 2.3rem;
+    margin: 1rem 1rem 0 0;
+}
+
+.admin-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 10rem;
+    box-shadow: 2px 2px 2px 2px var(--main-color);
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50vw;
+    padding: 1rem;
+    margin: 2rem 5rem 2rem 10rem;
+    color: var(--main-color-opacity);
+    font-size: 2rem;
+    border: none;
+    box-shadow: 0 0 2px 2px var(--main-color);
+}
+
+.item {
+    flex: 1;
+    margin: .6rem;
+}
+
+.item-heading {
+    border-bottom: 2px solid var(--main-color-opacity);
+}

@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="shortcut icon" type="image/png" href="img/icon.png">
+    <link rel="shortcut icon" type="image/png" href="../img/icon.png">
     <title>Instant Foods</title>
 </head>
 
@@ -17,8 +17,14 @@
             <h3 class="login__heading">Sign in and Order for food</h3>
             <form action="#" method="" class="auth_form">
                 <label for="username">Username</label>
+                <svg class="icon icon-auth-1">
+                    <use xlink:href="../img/sprite.svg#icon-user"></use>
+                </svg>
                 <input type="text" id="username" placeholder="Enter your username" required>
                 <label for="password">Password</label>
+                <svg class="icon icon-auth-4">
+                    <use xlink:href="../img/sprite.svg#icon-lock"></use>
+                </svg>
                 <input type="password" id="password" placeholder="Enter your Password" required>
                 <button type="submit" class="btn auth-btn">login</button>
             </form>

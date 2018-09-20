@@ -1,0 +1,66 @@
+.add-food__section {
+    height: 100vh;
+    background-color: var(--main-color-dark);
+}
+
+.add-food-header {
+    background-color: var(--main-dark-color);
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.add-food__link {
+    margin: 1rem;
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: 1.3rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    transition: all .3s;
+}
+
+.add-food__link:hover {
+    background-color: var(--grey-color-light);
+    color: var(--main-color-dark);
+}
+
+.food_form {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    background-color: var(--main-color);
+    color: var(--white-color);
+    width: 40vw;
+    height: 80vh;
+    border-radius: 1rem;
+    margin: 6rem 0 0 40rem;
+    box-shadow: 2px 2px 2px var(--grey-color);
+    padding: 1rem;
+}
+
+.add-food__heading {
+    text-align: center;
+}
+
+.food_form>* {
+    padding: 1rem;
+}
+
+.food_form input {
+    width: 30vw;
+    border: none;
+    outline: none;
+    background-color: var(--main-color);
+    border-bottom: 2px solid var(--white-color);
+    color: var(--white-color);
+}
+
+.add-btn {
+    width: 5vw;
+    margin: 1rem;
+    border-radius: 2rem;
+}

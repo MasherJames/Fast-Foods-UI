@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" type="image/png" href="../img/icon.png">
+    <title>Instant Foods</title>
+</head>
+
+<body>
+    <section class="admin-section">
+        <header class="admin-header">
+            <h3 class="admin-header__text">Instant foods</h3>
+            <form action="#" class="search">
+                <input type="text" class="search__field" placeholder="Search fooditems">
+                <button class="search__button">
+                    <svg class="icon-admin">
+                        <use xlink:href="../img/sprite.svg#icon-lock"></use>
+                    </svg>
+                </button>
+            </form>
+            <div class="admim-user">
+                <div class="admin-user__mail">
+                    <svg class="icon-admin">
+                        <use xlink:href="../img/sprite.svg#icon-mail"></use>
+                    </svg>
+                    <span class="admin-user__notification">11</span>
+                </div>
+                <a href="#" class="admin-user__pic">
+                    <img src="../img/user.png" alt="Admin photo" class="admin-user__photo">
+                    <span class="admin-user__name">James</span>
+                </a>
+                <div class="logout">logout</div>
+            </div>
+        </header>
+        <div class="content-container">
+            <nav class="admin-nav">
+                <div class="admin-links">
+                    <svg class="icon-admin-nav">
+                        <use xlink:href="../img/sprite.svg#icon-edit"></use>
+                    </svg>
+                    <a href="add-fooditem.html" class="admin-link">Add food item</a>
+                </div>
+                <div class="admin-links">
+                    <svg class="icon-admin-nav">
+                        <use xlink:href="../img/sprite.svg#icon-eye"></use>
+                    </svg>
+                    <a href="#" class="admin-link">See all orders</a>
+                </div>
+                <div class="admin-links">
+                    <svg class="icon-admin-nav">
+                        <use xlink:href="../img/sprite.svg#icon-check"></use>
+                    </svg>
+                    <a href="#" class="admin-link">Accepted orders</a>
+                </div>
+                <div class="admin-links">
+                    <svg class="icon-admin-nav">
+                        <use xlink:href="../img/sprite.svg#icon-cross"></use>
+                    </svg>
+                    <a href="#" class="admin-link">Denied Orders</a>
+                </div>
+                <div class="admin-links">
+                    <svg class="icon-admin-nav">
+                        <use xlink:href="../img/sprite.svg#icon-cw"></use>
+                    </svg>
+                    <a href="#" class="admin-link">Completed Orders</a>
+                </div>
+            </nav>
+            <div class="admin-items">
+                <div class="row">
+                    <div class="item item-heading">Food Id</div>
+                    <div class="item item-heading">Food Name</div>
+                    <div class="item item-heading">Description</div>
+                    <div class="item item-heading">Price</div>
+                    <div class="item item-heading">Date</div>
+                </div>
+                <div class="row">
+                    <div class="item">1</div>
+                    <div class="item">Rice Beef</div>
+                    <div class="item">Sweet Rice beef</div>
+                    <div class="item">60</div>
+                    <div class="item">24th aug 2018</div>
+                </div>
+                <div class="row">
+                    <div class="item">2</div>
+                    <div class="item">Rice Beef</div>
+                    <div class="item">Sweet Rice beef</div>
+                    <div class="item">60</div>
+                    <div class="item">24th aug 2018</div>
+                </div>
+                <div class="row">
+                    <div class="item">3</div>
+                    <div class="item">Rice Beef</div>
+                    <div class="item">Sweet Rice beef</div>
+                    <div class="item">60</div>
+                    <div class="item">24th aug 2018</div>
+                </div>
+                <div class="row">
+                    <div class="item">4</div>
+                    <div class="item">Rice Beef</div>
+                    <div class="item">Sweet Rice beef</div>
+                    <div class="item">60</div>
+                    <div class="item">24th aug 2018</div>
+                </div>
+                <div class="row">
+                    <div class="item">5</div>
+                    <div class="item">Rice Beef</div>
+                    <div class="item">Sweet Rice beef</div>
+                    <div class="item">60</div>
+                    <div class="item">24th aug 2018</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer-section">
+        <div class="footer-nav">
+            <ul class="list-items">
+                <li class="list-item text"><a href="#" class="footer-links">contacts</a></li>
+                <li class="list-item text"><a href="#" class="footer-links">about us</a></li>
+                <li class="list-item text"><a href="#" class="footer-links">services</a></li>
+                <li class="list-item text"><a href="#" class="footer-links">company</a></li>
+            </ul>
+        </div>
+        <div class="footer-social">
+            <ul class="list-items">
+                <li class="list-item"><a href="#" class="footer-links"><svg class="icon icon-footer">
+                            <use xlink:href="../img/sprite.svg#icon-google-with-circle"></use>
+                        </svg></a></li>
+                <li class="list-item"><a href="#" class="footer-links"><svg class="icon icon-footer">
+                            <use xlink:href="../img/sprite.svg#icon-instagram-with-circle"></use>
+                        </svg></a></li>
+                <li class="list-item"><a href="#" class="footer-links"><svg class="icon icon-footer">
+                            <use xlink:href="../img/sprite.svg#icon-linkedin-with-circle"></use>
+                        </svg></a></li>
+                <li class="list-item"><a href="#" class="footer-links"><svg class="icon icon-footer">
+                            <use xlink:href="../img/sprite.svg#icon-twitter-with-circle"></use>
+                        </svg></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="../js/app.js"></script>
+</body>
+
+</html>

@@ -1,4 +1,4 @@
-button {
+.auth-btn {
     width: 10vw;
     text-align: center;
     border-radius: 4rem;
@@ -16,4 +16,31 @@ button {
 
 .signup-link:hover {
     border-bottom: 1px solid var(--white-color);
+}
+
+.icon-auth-1 {
+    position: absolute;
+    top: 32.5%;
+    left: 30%;
+    height: 2rem;
+    width: 2rem;
+    fill: var(--white-color);
+}
+
+.icon-auth-2 {
+    position: absolute;
+    top: 47.5%;
+    left: 30%;
+    height: 2rem;
+    width: 2rem;
+    fill: var(--white-color);
+}
+
+.icon-auth-3 {
+    position: absolute;
+    top: 61.5%;
+    left: 30%;
+    height: 2rem;
+    width: 2rem;
+    fill: var(--white-color);
 }

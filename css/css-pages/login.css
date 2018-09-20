@@ -1,0 +1,8 @@
+.icon-auth-4 {
+    position: absolute;
+    top: 46.5%;
+    left: 30%;
+    height: 2rem;
+    width: 2rem;
+    fill: var(--white-color);
+}
