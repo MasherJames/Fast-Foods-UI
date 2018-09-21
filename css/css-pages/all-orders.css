@@ -1,0 +1,98 @@
+.all-orders,
+.accepted-orders {
+    height: 100vh;
+}
+
+.all-orders-header,
+.accepted-orders-header {
+    height: 10vh;
+    background-color: var(--main-color-dark);
+}
+
+.all-orders-link-container {
+    padding: 1.5rem;
+}
+
+.all-orders-link {
+    text-decoration: none;
+    font-size: 2rem;
+    color: var(--white-color);
+    border-radius: 2rem;
+    padding: .9rem;
+    background-color: var(--grey-color);
+}
+
+.all-orders-link:hover {
+    background-color: var(--white-color);
+    color: var(--main-color-dark);
+}
+
+.search-orders {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.search-orders input {
+    margin-right: -3rem;
+    border: none;
+    width: 25vw;
+    transition: all .3s;
+    border-bottom: 2px solid var(--main-color-dark);
+    font-size: 1.6rem;
+}
+
+.search-orders input:focus {
+    outline: none;
+    width: 28vw;
+}
+
+.food-item-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.order-box {
+    flex: 0 0 30%;
+    background-color: var(--grey-color-light);
+    margin: 2rem;
+    color: var(--dark-color);
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.request-date {
+    padding-left: 22rem;
+}
+
+.order-link {
+    text-decoration: none;
+    color: var(--white-color);
+    background-color: var(--main-color);
+    padding: .4rem;
+    border-radius: 1rem;
+    transition: all .3s;
+}
+
+.order-link:hover {
+    transform: translateY(-2rem) scale(1.03)
+}
+
+.decline {
+    margin-left: 10rem;
+}
+
+.requester-key {
+    font-size: 1.7rem;
+}
+
+.requester,
+.food-name {
+    letter-spacing: .2rem;
+}
+
+.icon-status {
+    fill: var(--white-color);
+    padding: 1.2rem 1rem 0 0;
+}

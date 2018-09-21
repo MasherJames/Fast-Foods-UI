@@ -10,6 +10,9 @@
     --grey-color-light: #ccc;
     --white-color: #fff;
     --dark-color: rgb(43, 42, 42);
+    --grid-width: 71.25rem;
+    --gutter-vertical: 3rem;
+    --gutter-horizontal: 2rem;
 }
 
 * {
