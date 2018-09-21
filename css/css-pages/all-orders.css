@@ -1,28 +1,42 @@
 .all-orders,
-.accepted-orders {
+.accepted-orders,
+.denied-orders,
+.completed-orders {
     height: 100vh;
 }
 
 .all-orders-header,
-.accepted-orders-header {
+.accepted-orders-header,
+.denied-orders-header,
+.completed-orders-header {
     height: 10vh;
     background-color: var(--main-color-dark);
 }
 
-.all-orders-link-container {
+.all-orders-link-container,
+.accepted-orders-link-container,
+.denied-orders-link-container,
+.completed-orders-link-container {
     padding: 1.5rem;
 }
 
-.all-orders-link {
+.all-orders-link,
+.accepted-orders-link,
+.denied-orders-link,
+.completed-orders-link {
     text-decoration: none;
     font-size: 2rem;
     color: var(--white-color);
     border-radius: 2rem;
     padding: .9rem;
     background-color: var(--grey-color);
+    transition: all .2s;
 }
 
-.all-orders-link:hover {
+.all-orders-link:hover,
+.accepted-orders-link:hover,
+.denied-orders-link:hover,
+.completed-orders-link:hover {
     background-color: var(--white-color);
     color: var(--main-color-dark);
 }
