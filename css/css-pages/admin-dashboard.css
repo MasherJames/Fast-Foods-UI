@@ -6,11 +6,6 @@
     height: 7rem;
 }
 
-.logout {
-    visibility: hidden;
-    position: absolute;
-}
-
 .admin-header__text {
     font-size: 2rem;
     margin: 1rem;
@@ -102,6 +97,10 @@
 .admin-items {
     flex: 1;
     background-color: var(--white-color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 4rem;
 }
 
 .admin-links {
@@ -126,31 +125,44 @@
     margin: 1rem 1rem 0 0;
 }
 
-.admin-items {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    margin: 10rem;
-    box-shadow: 2px 2px 2px 2px var(--main-color);
-}
-
-.row {
-    display: flex;
-    justify-content: space-evenly;
-    width: 50vw;
+.fooditem-container {
+    flex: 0 0 30%;
+    background-color: var(--grey-color-light);
+    margin: 2rem;
     padding: 1rem;
-    margin: 2rem 5rem 2rem 10rem;
-    color: var(--main-color-opacity);
-    font-size: 2rem;
-    border: none;
-    box-shadow: 0 0 2px 2px var(--main-color);
+    border-radius: 2rem;
+    color: var(--main-color-dark);
+    box-shadow: var(--order-shadow);
 }
 
-.item {
-    flex: 1;
-    margin: .6rem;
+.fooditem-container>* {
+    padding: .6rem;
 }
 
-.item-heading {
-    border-bottom: 2px solid var(--main-color-opacity);
+.food-name {
+    font-size: 1.7rem;
+}
+
+.date {
+    margin-left: 7rem;
+    font-size: 1.2rem;
+}
+
+.food-image {
+    height: 12rem;
+    border-radius: 4rem;
+}
+
+.food-desc {
+    margin-left: 1rem;
+    font-size: 1.5rem;
+}
+
+.food-desc-img {
+    display: flex;
+    align-items: center;
+}
+
+.food-price {
+    font-size: 1.2rem;
 }
