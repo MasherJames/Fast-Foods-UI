@@ -1,0 +1,35 @@
+.order-history-section {
+    min-height: 100vh;
+}
+
+.order-history-header {
+    height: 7rem;
+    background-color: var(--main-color-dark);
+    padding: 1.5rem;
+}
+
+.span-order-food {
+    background-color: var(--main-color-dark);
+    color: var(--white-color);
+    font-size: 1.2rem;
+    margin-left: 17rem;
+}
+
+.search-orders-history {
+    display: flex;
+    padding: 3rem;
+}
+
+.search-orders-history input {
+    margin-right: -3rem;
+    border: none;
+    width: 30vw;
+    transition: all .3s;
+    border-bottom: 2px solid var(--main-color-dark);
+    font-size: 1.6rem;
+}
+
+.search-orders-history input:focus {
+    outline: none;
+    width: 32vw;
+}

@@ -1,0 +1,71 @@
+.customer-section {
+    min-height: 100vh;
+}
+
+.food-items,
+.order-history-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.customer-fooditem-container,
+.order-history-item {
+    flex: 0 0 30%;
+    background-color: var(--grey-color-light);
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    color: var(--main-color-dark);
+    box-shadow: var(--order-shadow);
+}
+
+.customer-fooditem-container>*,
+.order-history-item>* {
+    padding: 1rem;
+}
+
+.date-created {
+    margin-left: 14rem;
+    font-size: 1.2rem;
+}
+
+.order-food {
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding: 1rem;
+    color: var(--main-color-dark);
+    border-radius: 1rem;
+    margin-left: 12rem;
+    background-color: var(--white-color);
+    transition: .3s;
+}
+
+.order-food:hover {
+    background-color: var(--main-color-dark);
+    color: var(--white-color);
+}
+
+.customer-dashboard-header {
+    height: 7rem;
+    background-color: var(--main-color-dark);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.order-history-link,
+.logout-link {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: var(--white-color);
+    padding: 1rem;
+    border-radius: 1rem;
+    transition: .3s;
+}
+
+.order-history-link:hover,
+.logout-link:hover {
+    background-color: white;
+    color: var(--main-color-dark);
+}

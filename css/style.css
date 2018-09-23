@@ -2,7 +2,9 @@
 @import url("css-pages/admin-dashboard.css");
 @import url("css-pages/all-orders.css");
 @import url("css-pages/accepted-orders.css");
+@import url("css-pages/customer-dashboard.css");
 @import url("css-pages/login.css");
+@import url("css-pages/order-history.css");
 @import url("css-pages/signup.css");
 @import url("animation.css");
 @import url("base.css");

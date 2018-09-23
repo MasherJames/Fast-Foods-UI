@@ -1,10 +1,3 @@
-.all-orders,
-.accepted-orders,
-.denied-orders,
-.completed-orders {
-    height: 100vh;
-}
-
 .all-orders-header,
 .accepted-orders-header,
 .denied-orders-header,
