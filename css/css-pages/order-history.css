@@ -15,9 +15,18 @@
     margin-left: 17rem;
 }
 
-.search-orders-history {
+.filter-orders-history {
     display: flex;
     padding: 3rem;
+}
+
+.search-orders-history {
+    display: flex;
+}
+
+.all-orders-history {
+    border-bottom: 2px solid var(--main-color-dark);
+    padding-right: 1rem;
 }
 
 .search-orders-history input {
@@ -32,4 +41,30 @@
 .search-orders-history input:focus {
     outline: none;
     width: 32vw;
+}
+
+.filter-container {
+    margin-left: 70rem;
+}
+
+.filter-btn {
+    display: flex;
+    border: none;
+    font-size: 1.4rem;
+    padding: .5rem;
+    border-radius: 1rem;
+}
+
+.filter-btn:focus {
+    outline: none;
+    cursor: pointer;
+}
+
+.icon-filter {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.filter-icon {
+    padding-left: 1rem;
 }
