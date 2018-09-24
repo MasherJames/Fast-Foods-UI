@@ -91,6 +91,61 @@
         width: 4rem;
         fill: var(--white-color);
     }
+    .food-image {
+        height: 8rem;
+        border-radius: 2rem;
+    }
+    .fooditem-container {
+        flex-direction: column;
+    }
+    .fooditem-container>* {
+        padding: 0.3rem;
+    }
+    .food-name {
+        font-size: 1.3rem;
+    }
+    .date {
+        margin-left: 1rem;
+        font-size: 1.2rem;
+    }
+    .admin-items {
+        padding: 0rem;
+    }
+    .food-desc-img {
+        flex-direction: column;
+    }
+    .food-price {
+        text-align: center;
+    }
+    .admin-header__text {
+        font-size: 1.5rem;
+        margin: .6rem;
+    }
+    .admin-user__mail,
+    .admin-user__name {
+        display: none;
+    }
+    .search {
+        margin-right: 3rem;
+    }
+    .search input {
+        padding: .3rem 1rem;
+        width: 50vw;
+        margin-right: -3rem;
+    }
+    .search input:focus {
+        width: 52vw;
+    }
+    .search input::-webkit-input-placeholder {
+        font-weight: 200;
+    }
+    .order-box {
+        margin-left: 5.5rem;
+        padding: .5rem;
+    }
+    .decline {
+        margin-left: 1rem;
+    }
 }
 
 @media only screen and (max-width: 320px) {
@@ -107,6 +162,57 @@
     }
     .footer-social {
         margin: .7rem;
+    }
+    .food-image {
+        height: 8rem;
+        border-radius: 2rem;
+    }
+    .fooditem-container {
+        flex-direction: column;
+    }
+    .fooditem-container>* {
+        padding: 0.3rem;
+    }
+    .food-name {
+        font-size: 1.3rem;
+    }
+    .date {
+        margin-left: 1rem;
+        font-size: 1.2rem;
+    }
+    .admin-items {
+        padding: 0;
+    }
+    .food-desc-img {
+        flex-direction: column;
+    }
+    .food-price {
+        text-align: center;
+    }
+    .admin-header__text {
+        font-size: 1.5rem;
+        margin: .6rem;
+    }
+    .admin-user__mail,
+    .admin-user__name {
+        display: none;
+    }
+    .search {
+        margin-right: 3rem;
+    }
+    .search input {
+        padding: .3rem 1rem;
+        width: 50vw;
+        margin-right: -3rem;
+    }
+    .search input:focus {
+        width: 52vw;
+    }
+    .search input::-webkit-input-placeholder {
+        font-weight: 200;
+    }
+    .request-date {
+        margin-left: 20rem;
     }
 }
 
@@ -160,5 +266,54 @@
     }
     .auth_form input {
         font-size: 1.5rem;
+    }
+    .food-image {
+        height: 8rem;
+        width: 8rem;
+        border-radius: 2rem;
+    }
+    .fooditem-container {
+        flex-direction: column;
+    }
+    .fooditem-container>* {
+        padding: 0.3rem;
+    }
+    .food-name {
+        font-size: 1.3rem;
+    }
+    .date {
+        margin-left: 1rem;
+        font-size: 1.2rem;
+    }
+    .admin-items {
+        padding: 0;
+    }
+    .food-desc-img {
+        flex-direction: column;
+    }
+    .food-price {
+        text-align: center;
+    }
+    .admin-header__text {
+        font-size: 1.5rem;
+        margin: .6rem;
+    }
+    .admin-user__mail,
+    .admin-user__name {
+        display: none;
+    }
+    .search {
+        margin-right: 3rem;
+    }
+    .search input {
+        padding: .3rem 1rem;
+        width: 50vw;
+        margin-right: -3rem;
+    }
+    .search input:focus {
+        width: 52vw;
+    }
+    .search input::-webkit-input-placeholder {
+        font-weight: 200;
     }
 }
