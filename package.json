@@ -1,0 +1,32 @@
+{
+    "name": "instant-food",
+    "version": "1.0.0",
+    "description": "Fast instant foods",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "webpack --watch & live-server build/",
+        "watch": "webpack --watch",
+        "build": "webpack --config webpack.config.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MasherJames/Fast-Foods-UI.git"
+    },
+    "author": "James",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/MasherJames/Fast-Foods-UI/issues"
+    },
+    "homepage": "https://github.com/MasherJames/Fast-Foods-UI#readme",
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-core": "^6.26.3",
+        "babel-loader": "^7.1.5",
+        "babel-preset-env": "^1.7.0",
+        "live-server": "^1.2.0",
+        "webpack": "^4.19.1",
+        "webpack-cli": "^3.1.1",
+        "webpack-dev-server": "^3.1.8"
+    }
+}
