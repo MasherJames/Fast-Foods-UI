@@ -3,6 +3,7 @@ const path = require("path");
 module.exports = {
   mode: "development",
   entry: {
+    common: "./src/common.js",
     signup: "./src/signup.js"
     // login: "./src/login.js"
   },
