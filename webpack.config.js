@@ -3,19 +3,17 @@ const path = require("path");
 module.exports = {
   mode: "development",
   entry: {
-    common: "./src/common.js",
     signup: "./src/signup.js"
-    // login: "./src/login.js"
   },
   output: {
-    path: path.resolve(__dirname, "build"),
+    path: path.resolve(__dirname, "public/dist"),
     filename: "[name].bundle.js"
   },
   module: {
     rules: [
       {
         test: /\.js$/,
-        exclude: /(node_modules)/,
+        exclude: /node_modules/,
         use: {
           loader: "babel-loader",
           options: {

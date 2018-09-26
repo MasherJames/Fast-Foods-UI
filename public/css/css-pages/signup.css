@@ -8,6 +8,10 @@
     outline: none;
 }
 
+.output {
+    font-size: 1.5rem;
+}
+
 .signup-link {
     text-decoration: none;
     color: var(--main-color-dark);

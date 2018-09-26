@@ -5,7 +5,7 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "webpack --watch & live-server build/",
+        "start": "webpack --watch & live-server public/",
         "watch": "webpack --watch",
         "build": "webpack --config webpack.config.js"
     },

@@ -1,7 +1,6 @@
 @import url("css-pages/add-item.css");
 @import url("css-pages/admin-dashboard.css");
 @import url("css-pages/all-orders.css");
-@import url("css-pages/accepted-orders.css");
 @import url("css-pages/customer-dashboard.css");
 @import url("css-pages/login.css");
 @import url("css-pages/order-history.css");
@@ -9,6 +8,5 @@
 @import url("animation.css");
 @import url("base.css");
 @import url("components.css");
-@import url("grid.css");
 @import url("layout.css");
 @import url("media_queries.css");
