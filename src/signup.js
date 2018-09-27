@@ -1,16 +1,15 @@
-let signUp = document.querySelector(".auth_form");
+let signUp = document.querySelector("#signup_form");
 
 signUp.addEventListener("submit", e => {
   e.preventDefault();
 
-  let username = document.querySelector("#username");
-  let email = document.querySelector("#email");
-  let password = document.querySelector("#password");
+  let username = document.querySelector("#username").value;
+  let email = document.querySelector("#email").value;
+  let password = document.querySelector("#password").value;
 
   fetch("https://foods-fasty.herokuapp.com/api/v1/auth/signup", {
     method: "POST",
     headers: {
-      Accept: "application/json",
       "Content-Type": "application/json"
     },
     body: JSON.stringify({
