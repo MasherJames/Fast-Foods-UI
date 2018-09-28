@@ -20,6 +20,7 @@
             </nav>
         </header>
         <form action="#" method="" class="food_form">
+            <div class="output"></div>
             <h3 class="add-food__heading">Add new a fooditem</h3>
             <label for="food-name">Food name</label>
             <input type="text" id="food-name" placeholder="Enter food name" required>
@@ -27,10 +28,11 @@
             <input type="text" id="description" placeholder="Enter food description" required>
             <label for="price">Price</label>
             <input type="number" id="price" placeholder="Enter food price" required>
-            <input type="file" placeholder="upload image" required>
+            <input type="file" placeholder="upload image">
             <button type="submit" class="btn add-btn">Add</button>
         </form>
     </section>
+    <script src="../dist/create_fooditem.bundle.js"></script>
 </body>
 
 </html>
