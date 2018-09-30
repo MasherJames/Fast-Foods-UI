@@ -37,6 +37,7 @@ addFood.addEventListener("submit", e => {
         document.querySelector(".output").innerHTML =
           "Food item created successfully";
         document.querySelector(".output").style.color = "green";
+        window.location.assign("admin-dashboard.html");
       }
     });
 });

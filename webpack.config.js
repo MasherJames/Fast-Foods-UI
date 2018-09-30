@@ -5,7 +5,8 @@ module.exports = {
   entry: {
     signup: "./src/signup.js",
     login: "./src/login.js",
-    create_fooditem: "./src/create-fooditem.js"
+    create_fooditem: "./src/create-fooditem.js",
+    all_fooditems: "./src/all-fooditems.js"
   },
   output: {
     path: path.resolve(__dirname, "public/dist"),
