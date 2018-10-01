@@ -133,6 +133,7 @@
     border-radius: 2rem;
     color: var(--main-color-dark);
     box-shadow: var(--order-shadow);
+    cursor: pointer;
 }
 
 .fooditem-container>* {
