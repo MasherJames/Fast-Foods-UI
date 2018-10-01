@@ -1,0 +1,105 @@
+.single-fooditem-section {
+    min-height: 80vh;
+}
+
+.item-division {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sigle-item-icons {
+    display: flex;
+    flex-direction: column;
+}
+
+.single-fooditem {
+    text-align: center;
+}
+
+.single-fooditem>* {
+    padding: .6rem;
+}
+
+.sigle-food-desc {
+    font-size: 2rem;
+}
+
+.sigle-food-image {
+    height: 12rem;
+    border-radius: 4rem;
+}
+
+.sigle-food-name {
+    font-size: 2rem;
+}
+
+.sigle-food-price {
+    font-size: 1.2rem;
+}
+
+.icon-single {
+    box-shadow: var(--order-shadow);
+    height: 4rem;
+    width: 4rem;
+    padding: 1rem;
+    border-radius: 4rem;
+}
+
+.back {
+    fill: var(--main-color);
+    margin-top: 3rem;
+    background-color: var(--white-color);
+}
+
+.edit,
+.delete {
+    cursor: pointer;
+}
+
+.edit {
+    fill: var(--white-color);
+    margin-bottom: 3rem;
+    background-color: rgb(65, 63, 63);
+}
+
+.delete {
+    fill: var(--white-color);
+    background-color: rgb(129, 3, 3);
+}
+
+.single-orders-header {
+    display: flex;
+    height: 10vh;
+    background-color: var(--main-color-dark);
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.single-orders-header>* {
+    padding: 1rem;
+}
+
+.add-single-item {
+    margin-right: 2rem;
+}
+
+.add-single-item-link {
+    text-decoration: none;
+    color: var(--white-color);
+    transition: all .2s;
+}
+
+.add-single-item-link:hover {
+    padding: 1rem;
+    background-color: var(--white-color);
+    color: var(--main-color);
+    border-radius: 4rem;
+}
+
+.app-heading {
+    color: var(--white-color);
+    font-style: oblique;
+    text-transform: uppercase;
+}
