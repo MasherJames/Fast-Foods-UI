@@ -86,7 +86,7 @@
 
 .content-container {
     display: flex;
-    min-height: 100vh;
+    min-height: 70vh;
 }
 
 .admin-nav {
@@ -101,6 +101,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 4rem;
+    align-items: flex-start;
 }
 
 .admin-links {
@@ -125,15 +126,18 @@
     margin: 1rem 1rem 0 0;
 }
 
+.fooditem-container__link {
+    text-decoration: none;
+    color: var(--main-color-dark);
+}
+
 .fooditem-container {
     flex: 0 0 30%;
     background-color: var(--grey-color-light);
     margin: 2rem;
     padding: 1rem;
     border-radius: 2rem;
-    color: var(--main-color-dark);
     box-shadow: var(--order-shadow);
-    cursor: pointer;
 }
 
 .fooditem-container>* {
