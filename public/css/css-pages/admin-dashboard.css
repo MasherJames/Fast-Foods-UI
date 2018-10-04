@@ -126,11 +126,6 @@
     margin: 1rem 1rem 0 0;
 }
 
-.fooditem-container__link {
-    text-decoration: none;
-    color: var(--main-color-dark);
-}
-
 .fooditem-container {
     flex: 0 0 30%;
     background-color: var(--grey-color-light);
@@ -148,8 +143,13 @@
     font-size: 1.7rem;
 }
 
+.fooditem_id {
+    margin-left: 2rem;
+    font-size: 1.2rem;
+}
+
 .date {
-    margin-left: 7rem;
+    margin-left: 2rem;
     font-size: 1.2rem;
 }
 
