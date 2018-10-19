@@ -51,11 +51,14 @@ login.addEventListener("submit", e => {
         ).innerHTML = `You were successfully logged in ${username}`;
         document.querySelector(".output").style.color = "green";
         let role = jwtDecode(data["token"])["identity"]["is_admin"];
+        console.log(role);
         if (role) {
           window.location.assign("admin-dashboard.html");
         } else {
           window.location.assign("customer-dashboard.html");
         }
       }
+      document.querySelector("#username").innerHTML = "";
+      document.querySelector("#password").innerHTML = "";
     });
 });
